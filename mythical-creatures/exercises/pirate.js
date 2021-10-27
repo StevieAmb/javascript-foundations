@@ -20,7 +20,7 @@ class Pirate {
     return 'YAARRR!'
   }
   liftCurse() {
-    if (this.booty >= 300 & this.cursed === true) {
+    if (this.booty >= 300 && this.cursed === true) {
       this.booty = this.booty - 300;
       this.cursed = false;
       return 'Your curse has been lifted!';
